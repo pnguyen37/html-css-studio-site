@@ -1,8 +1,7 @@
-  <!-- TO RUN IN BROWSER:
+<!-- TO RUN IN BROWSER:
     1. Install vscode extension Name: open in `browser open-in-browser` by TechER
     2. Right click html file and either run in default browser or another browser
   -->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,23 +9,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML/CSS Studio</title>
     <!-- import CSS styles -->
-    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <!-- page content goes into <body> -->
   <body>
     <div id="logoBar">
-      <h1>Welcome to 100 Acre Wood!</h1>
-      <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png"/>
-      <h3>We're glad you're here :D</h3>
+      <h1 class="headings">Welcome to 100 Acre Wood!</h1>
+      <img id="siteLogo" alt="Pooh-bear site logo" src="./assets/Header.png" />
+      <h3 class="headings">We're glad you're here :D</h3>
     </div>
-    <hr/>
+    <hr />
     <div id="staffGallery">
-      <img class="galleryImage" src="./assets/Eeyore-Eh.png"/>
-      <img class="galleryImage" src="./assets/Eeyore-Zz.png"/>
-      <img class="galleryImage" src="./assets/Kanga-Roo.png"/>
-      <img class="galleryImage" src="./assets/Owl-Phone.png"/>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Eeyore-Eh.png"
+          alt="Image of Eeyore upside-down"
+        />
+        <p>Upside-Down Eyeore</p>
+      </div>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Eeyore-Zz.png "
+          alt="Image of Eeyore sleeping"
+        />
+        <p>Sleepy Eeyore!</p>
+      </div>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Kanga-Roo.png"
+          alt="Image of Kangoroo with baby in pocket"
+        />
+        <p>Kanga-Roo</p>
+      </div>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Owl-Phone.png"
+          alt="Image of Owl with phone"
+        />
+        <p>Owl with Phone</p>
+      </div>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Pooh-Jess.png"
+          alt="Image of Pooh with balloon"
+        />
+        <p>Pooooh</p>
+      </div>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Rabbit-Carrot.png"
+          alt="Image of Rabbit with carrot"
+        />
+        <p>Rabbit With A Carrot!</p>
+      </div>
+      <div class="card">
+        <img
+          class="galleryImage"
+          src="./assets/Roo-Bee.png"
+          alt="Image of Roo with a bee"
+        />
+        <p>Roo With a Beeee</p>
+      </div>
+      <div class="card">
+        <img class="galleryImage" src="./assets/Tigger-Jump.png" alt="Image of Tigger jumping" />
+        <p>Jumpy Tigger</p>
+      </div>
     </div>
   </body>
-
 </html>
